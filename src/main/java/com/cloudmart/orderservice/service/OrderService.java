@@ -33,6 +33,12 @@ public class OrderService {
         return saved;
     }
 
+    public Order updateStatus(String id, String status) {
+        Order order = getOrderById(id);
+        order.setStatus(status);
+        return orderRepository.save(order);
+    }
+
     public void deleteOrder(String id) {
         orderRepository.deleteById(id);
     }
