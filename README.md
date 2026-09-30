@@ -48,3 +48,7 @@ java -jar target/order-service.jar
 - **Student Number:** 2301692038
 - **Slack Handle:** vihana_piyasiri
 - **GCP Project ID:** project-1023ef7b-f75c-4e17-ab5
+
+---
+
+_Deployed and verified on GCP: 2026-09-30._
